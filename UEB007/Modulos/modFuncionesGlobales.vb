@@ -82,4 +82,8 @@ Module modFuncionesGlobales
             MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End Try
     End Sub
+
+    Private Sub mensaje()
+        MsgBox("mensaje")
+    End Sub
 End Module
