@@ -1,4 +1,5 @@
 ﻿Imports System.Data.SqlClient
+'jimmy
 Module modFuncionesGlobales
     Public CnxStr As String = "Data Source = DESKTOP-K9BF7IE\BINARYLEMON; Persist Security Info = False; Initial Catalog = silais; User ID = sa; Password = binarylemon;"
     Public CNX As SqlConnection = New SqlConnection(CnxStr)
