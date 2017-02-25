@@ -83,11 +83,4 @@ Module modFuncionesGlobales
         End Try
     End Sub
 
-    Private Sub mensaje()
-        MsgBox("mensaje")
-    End Sub
-
-    Private Sub msj()
-        MsgBox("mensaje")
-    End Sub
 End Module
