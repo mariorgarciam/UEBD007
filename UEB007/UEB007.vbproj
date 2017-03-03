@@ -96,6 +96,12 @@
     <Compile Include="Formularios\frmSucursal.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Formularios\frmTiposU.Designer.vb">
+      <DependentUpon>frmTiposU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmTiposU.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="mdiPrincipal.Designer.vb">
       <DependentUpon>mdiPrincipal.vb</DependentUpon>
     </Compile>
@@ -125,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmSucursal.resx">
       <DependentUpon>frmSucursal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmTiposU.resx">
+      <DependentUpon>frmTiposU.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mdiPrincipal.resx">
       <DependentUpon>mdiPrincipal.vb</DependentUpon>
