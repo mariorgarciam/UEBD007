@@ -84,6 +84,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formularios\frmCarreras.Designer.vb">
+      <DependentUpon>frmCarreras.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmCarreras.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formularios\frmIniciarSesion.Designer.vb">
       <DependentUpon>frmIniciarSesion.vb</DependentUpon>
     </Compile>
@@ -120,6 +126,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Formularios\frmCarreras.resx">
+      <DependentUpon>frmCarreras.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmIniciarSesion.resx">
       <DependentUpon>frmIniciarSesion.vb</DependentUpon>
     </EmbeddedResource>
