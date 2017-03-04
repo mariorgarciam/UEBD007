@@ -64,7 +64,7 @@ Public Class mdiPrincipal
     End Sub
 
     Private Sub tsbSucursal_Click(sender As Object, e As EventArgs) Handles tsbSucursal.Click
-        IniciarFormulario(frmSucursal, Me, TipoFormulario.Hijo)
+        IniciarFormulario(frmSede, Me, TipoFormulario.Hijo)
     End Sub
 End Class
 
