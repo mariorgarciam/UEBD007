@@ -84,10 +84,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Formularios\frm Usuarios.Designer.vb">
-      <DependentUpon>frm Usuarios.vb</DependentUpon>
+    <Compile Include="Formularios\frmCarreras.Designer.vb">
+      <DependentUpon>frmCarreras.vb</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\frm Usuarios.vb">
+    <Compile Include="Formularios\frmCarreras.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\frmIniciarSesion.Designer.vb">
@@ -96,10 +96,22 @@
     <Compile Include="Formularios\frmIniciarSesion.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Formularios\frmRoles.Designer.vb">
+      <DependentUpon>frmRoles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmRoles.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formularios\frmSucursal.Designer.vb">
       <DependentUpon>frmSucursal.vb</DependentUpon>
     </Compile>
     <Compile Include="Formularios\frmSucursal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmTiposU.Designer.vb">
+      <DependentUpon>frmTiposU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmTiposU.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="mdiPrincipal.Designer.vb">
@@ -126,14 +138,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Formularios\frm Usuarios.resx">
-      <DependentUpon>frm Usuarios.vb</DependentUpon>
+    <EmbeddedResource Include="Formularios\frmCarreras.resx">
+      <DependentUpon>frmCarreras.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmIniciarSesion.resx">
       <DependentUpon>frmIniciarSesion.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmRoles.resx">
+      <DependentUpon>frmRoles.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmSucursal.resx">
       <DependentUpon>frmSucursal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmTiposU.resx">
+      <DependentUpon>frmTiposU.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mdiPrincipal.resx">
       <DependentUpon>mdiPrincipal.vb</DependentUpon>
